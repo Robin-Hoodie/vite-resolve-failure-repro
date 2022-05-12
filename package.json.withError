@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@cognite/3d-web-parser": "0.13.5",
+    "@cognite/3d-viewer": "6.1.5",
     "@cognite/sdk": "^2.0.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

@@ -1,11 +1,17 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { intercomHelper } from "@cognite/intercom-helper";
+
+// Remove comments for error
+// import { Cognite3DModel } from "@cognite/3d-viewer";
+// console.log(Cognite3DModel);
+
+// Comment this out for error
+import { BoxGroup } from "@cognite/3d-web-parser";
+console.log(BoxGroup);
 
 function App() {
   const [count, setCount] = useState(0);
-  intercomHelper.show(true);
 
   return (
     <div className="App">
